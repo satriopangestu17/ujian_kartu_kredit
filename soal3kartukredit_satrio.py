@@ -50,7 +50,7 @@ for i in range(len(out)):
     else:
         invalid.append(out[i])
 
-with open('ccValid.json','w') as y:
-    json.dump(valid,y)
-with open('ccInvalid.json','w') as yy:
-    json.dump(invalid,yy)
+with open('ccValid.json','w') as val:
+    json.dump(valid,val)
+with open('ccInvalid.json','w') as inval:
+    json.dump(invalid,inval)
